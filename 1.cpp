@@ -1,7 +1,7 @@
 #include<conio.h>
 #include<string.h>
 #include<stdio.h>
-int main()
+void main()
 {
 	int a;
 	int sum=0;
@@ -16,5 +16,5 @@ int main()
 		sum=sum+b[j];
 	}
 	printf("%d",sum);
-    return 0;
+
 }
